@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Nectar Grocery",
+    "slug": "nectar-grocery-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#53B175"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires camera access to record videos.",
+        "NSMicrophoneUsageDescription": "This app requires microphone access to capture audio with video."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#53B175"
+      },
+      "permissions": ["CAMERA", "RECORD_AUDIO"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
